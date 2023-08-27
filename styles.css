@@ -73,3 +73,32 @@ button{
     border-radius: 10px;
     width: 100px;
 }
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 48px;
+    gap: 48px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.sub-content-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+}
+
+.sub-content-2 img {
+    max-width: 250px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882F6;
+}
