@@ -38,7 +38,7 @@ a {
     font-size: 18px;
 }
 
-.content-1{
+.content-1, .content-4{
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
@@ -123,4 +123,22 @@ h3 {
     font-style: normal;
     font-weight: bold;
     text-align: end;
+}
+
+.content-4 {
+    background-color: #3882F6;
+    display: flex;
+    margin: 48px;
+    border-radius: 10px;
+}
+
+h4 {
+ font-size: 24px;
+ font-weight: bold;   
+}
+
+.content-4 button {
+    border-color: #E5E7EB;
+    padding: 10px;
+    
 }
