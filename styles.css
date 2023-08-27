@@ -20,6 +20,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 48px;
+    position: fixed;
+    width: 100%;
 }
 
 h1 {
@@ -29,7 +31,16 @@ h1 {
 li {
     list-style: none;
     display: inline;
-    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+    padding-right: 48px;
+}
+
+.link {
+    padding-right: 48px;
 }
 
 a {
