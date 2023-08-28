@@ -27,6 +27,7 @@
 
 h1 {
     flex-shrink: 0;
+    padding-right: 18px;
 }
 
 li {
@@ -37,11 +38,6 @@ li {
 ul {
     display: flex;
     gap: 18px;
-    padding-right: 48px;
-}
-
-.link {
-    padding-right: 48px;
 }
 
 a {
